@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Raksa Form Premi">
+    <meta name="author" content="PT Araksa">
+    <meta name="keywords" content="Premi, Asuransi, Raksa, Asuransi Raksa">
+
+    <!-- Title Page-->
+    <title>Form Raksa</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <script src="js/bootstrap.min.js" ></script>
+
+    <!-- Datepicker -->
+    <link href='css/bootstrap-datepicker.min.css' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">3. Ringkasan Simulasi Premi</h2>
+                </div>
+                <div class="card-body">
+                    <h3 style="border-bottom: 3px solid #000;">Data Diri</h3><br>
+                    <form method="POST" action="final.html">
+                        <div class="form-row">
+                            <div class="name">Nama</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="nama" required="" value="Ilham Muhammad Fajar" disabled>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Email</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="email" name="email" required="" disabled="" value="ilhammuhammadfajar@gmail.com">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">No HP</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="tel" name="tel" required="" disabled="" value="082298065391"> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Alamat</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <textarea class="input--style-5" rows="2" name="alamat" placeholder="Masukan Alamat Anda" style="padding:10px; width: 100%;" disabled>Jl kebon baru 1 gang u rt 14 rw 1 no 13 tebet jakarta selatan
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Provinsi</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="provinsi" required="" disabled="" value="DKI Jakarta"> 
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h3 style="border-bottom: 3px solid #000;">Perhitungan Premi</h3><br>
+
+                        <div class="form-row">
+                            <div class="name">Premi Pertanggungan Pokok :</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="harga" required="" value="Rp.4.940.000,-" disabled>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Banjir, Angin Topan, dan Badai</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="bencana" required="" disabled="" value="Rp. 250.000,-">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Tanggung Jawab Hukum (TJH) Pihak III</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="tjh" required="" disabled="" value="Rp. 100.000,-"> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Premi Setelah Perluasan</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="biayamaterai" required="" disabled="" value="Rp. 5.290.000,-"> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Tanggung Jawab Hukum (TJH) Pihak III</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="tjh" required="" disabled="" value="Rp. 100.000,-"> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Total Premi Yang Harus Dibayarkan</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <input class="input--style-5" type="text" name="tjh" required="" disabled="" value="Rp. 5.340.000,-"> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="name">Pilih Metode Pembayaran</div>
+                            <div class="value">
+                                <div class="input-group-desc">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select id="pembayaran" style="width: 15%" class="form-control" required>
+                                            <option disabled="disabled" selected="selected">Choose option</option>
+                                            <option value="Ovo" >Ovo</option>
+                                            <option value="Gopay" >Gopay</option>
+                                            <option value="full" >Kartu Kredit(Full Payment)</option>
+                                            <option value="cicilan" >Kartu Kredit(Cicilan)</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" type="submit">Submit</button>
+                        </div>
+                    </form>  <br>
+                    <label>Note:</label>
+                    <div class="col-2 ketentuan">
+                        <li>Simulasi Premi di atas hanya alat bantu untuk menghitung jumlah premi yang harus dibayarkan dan bukan merupakan konfirmasi penutupan asuransi.</li>
+                        <li>Kondisi di atas dapat kami cover setelah SURVEY dan diterbitkannya konfirmasi penutupan asuransi oleh PT Asuransi Raksa Pratikara.</li>
+                        <li>Kondisi di atas berlaku tanpa Banker's Clause atau Leasing Clause.</li>
+                        <li>Khusus untuk polis perpanjangan, penawaran di atas berlaku sampai dengan berakhirnya periode polis. Jika perpanjangan melewati periode akhir polis, maka kendaraan perlu disurvey.</li>
+                        <li>Pembayaran dilakukan sebelum polis diproses dan dikirimkan.</li>
+                        <li>Pembayaran Premi dapat dilakukan setelah diterimanya tagihan premi dari PT Asuransi Raksa Pratikara melalui VA BCA :  00503-00-0356913-00  (Jakarta) & nomor rekening akan diinfokan oleh marketing cabang bersangkutan (di luar Jakarta).</li>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src='js/bootstrap-datepicker.min.js' type='text/javascript'></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+    <script>
+        $("#pembayaran").select2({
+        allowClear:true,
+        placeholder: 'Pilih Metode Pembayaran'
+        });
+    </script>
+    <script>
+        $("#provinsi").select2({
+        allowClear:true,
+        placeholder: 'Plat Mobil'
+        });
+    </script>
+    <script type="text/javascript">
+         $(function(){
+          $(".datepicker").datepicker({
+            format: "yyyy",
+            viewMode: "years", 
+            minViewMode: "years"
+          });
+         });
+    </script>
+
+</body>
+
+</html>
+<!-- end document-->
